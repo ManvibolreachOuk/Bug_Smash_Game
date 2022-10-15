@@ -1,0 +1,77 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Image {
+    background-image: url("leaf.jpg");
+    height: 600px;
+    width: 980px;
+    background-repeat: repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#bug {
+    left: 5%;
+    top: 20%;
+    position: relative;
+    cursor: crosshair;
+}
+
+button {
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    font-family: Calibri;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #912ca3;
+    width: 100px;
+    height: 40px;
+    margin: 10px 10px 10px 750px;
+    color: white;
+    padding: 2px;
+    width: 20%;
+    border: none;
+    font-size: 17px;
+}
+
+button:hover {
+    border-style: hidden;
+    border-width: thin;
+    border-radius: 5px;
+    background-color: #FF9999;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#scoreLabel {
+    font-size: large;
+    color: #03adfc;
+    font-weight: bold;
+    font-family: Calibri;
+    position: relative;
+    font-size: 30px;
+}
+
+#score {
+    padding: 0px;
+    font-size: 30px;
+    position: relative;
+    color: #b3ff00;
+    font-family: Calibri;
+}
+
+#name {
+    font-size: 30px;
+    color: #ff7402;
+}
